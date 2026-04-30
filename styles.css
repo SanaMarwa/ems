@@ -1396,7 +1396,7 @@ form .btn {
 
 /* QUOTE */
 
-.quote {
+#program-info .quote {
   margin-top: 3rem;
   padding: 2rem;
   border-radius: 24px;
@@ -1404,13 +1404,13 @@ form .btn {
   text-align: center;
 }
 
-.quote p {
+#program-info .quote p {
   font-size: 1.3rem;
   font-style: italic;
   color: var(--text);
 }
 
-.quote h3 {
+#program-info .quote h3 {
   margin-top: 0.8rem;
   font-size: 1rem;
   color: var(--primary);
@@ -1479,7 +1479,7 @@ form .btn {
     font-size: 2rem;
   }
 
-  .quote {
+  #program-info .quote {
     padding: 1.25rem;
   }
 }
