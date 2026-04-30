@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Elysian Montessori School Website: Offering high-quality Montessori learning environment for children ages 1½ through 6 years." />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png" />
+    <link rel="manifest" href="favicon_io/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/dc4cb3ac1f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="script.js" defer></script>
+    <title>Elysian Montessori School</title>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container nav-wrap">
+
+            <!-- Logo -->
+            <a href="#home" class="brand">
+                <img src="photos/logo.png" alt="Elysian Montessori School Logo">
+
+                <span class="brand-text">
+                    <span class="word-1">Elysian</span>
+                    <span class="word-2">Montessori</span>
+                    <span class="word-3">School</span>
+                </span>
+            </a>
+
+            <!-- Desktop Nav -->
+            <nav class="nav-links" id="navMenu">
+                <a href="#hero" class="active">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="programs.html">Programs</a>
+                <a href="#contact">Contact</a>
+                <a href="#admission-form" class="mobile-btn">Admission</a>
+            </nav>
+
+            <!-- Desktop CTA -->
+            <a href="#admission-form" class="nav-btn">Admission</a>
+
+            <!-- Hamburger -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow">Ages 18 months to 6 years</p>
+                    <h1>Where curiosity grows into confidence.</h1>
+                    <p>
+                        At Elysian Montessori School, children learn through meaningful work,
+                        gentle guidance, and thoughtfully prepared environments.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#admission-form" class="btn">Schedule a Tour</a>
+                        <a href="#about" class="alt-btn">Explore Montessori</a>
+                    </div>
+                </div>
+                <div class="hero-media">
+                    <img src="photos/hero3-min.jpg" alt="Children exploring Montessori materials in class" />
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="about-top">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path d="M602.45,3.86h0S572.9,116.24,281.94,120H923C632,116.24,602.45,3.86,602.45,3.86Z"
+                        class="shape-fill">
+                    </path>
+                </svg>
+            </div>
+            <div class="about-container">
+
+                <!-- IMAGE -->
+                <div class="about-image">
+                    <video src="about.mp4" autoplay loop></video>
+                </div>
+
+                <!-- CONTENT -->
+                <div class="about-content">
+                    <span class="tag">The Montessori Approach</span>
+
+                    <h2>Nurturing independence, one child at a time.</h2>
+
+                    <p class="lead">
+                        At Elysian Montessori School, children learn through purposeful work, gentle guidance, and
+                        thoughtfully
+                        prepared environments.
+
+                        We don't rush learning—we nurture it, allowing each child to grow with confidence, independence,
+                        and a
+                        genuine love for discovery.
+                    </p>
+
+                    <div class="about-points">
+                        <div>
+                            <h4>Child-led learning</h4>
+                            <p>Each child is guided at their own pace, building independence with quiet confidence.</p>
+                        </div>
+
+                        <div>
+                            <h4>Hands-on materials</h4>
+                            <p>Carefully designed materials turn abstract ideas into meaningful, hands-on experiences.
+                            </p>
+                        </div>
+
+                        <div>
+                            <h4>Prepared environment</h4>
+                            <p>Calm, intentional spaces that encourage focus, exploration, and self-direction.</p>
+                        </div>
+                    </div>
+
+                    <a href="programs.html" class="btn">Discover Our Approach</a>
+                </div>
+
+            </div>
+
+            <!-- waves divider1 -->
+            <div class="about-bottom">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                    preserveAspectRatio="none">
+                    <path
+                        d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                        opacity=".25" class="shape-fill"></path>
+                    <path
+                        d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                        opacity=".5" class="shape-fill"></path>
+                    <path
+                        d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                        class="shape-fill"></path>
+                </svg>
+            </div>
+        </section>
+        <section class="why-us">
+            <div class="container">
+
+                <div class="why-header">
+                    <span class="tag-line">Why Elysian Montessori School?</span>
+                    <h2>Nurturing today, inspiring tomorrow.</h2>
+                    <p>
+                        We provide a nurturing environment that fosters independence,
+                        creativity, and a lifelong love for learning.
+                    </p>
+                </div>
+
+                <div class="why-cards">
+
+                    <!-- CARD 1 -->
+                    <div class="card icon-yellow">
+                        <div class="icon "><img src="photos/a-1.png" alt="Fostering individuality"></div>
+                        <h3>Beyond Academics</h3>
+                        <p>
+                            We nurture curiosity, independence, and confidence in every child,
+                            helping them grow into thoughtful individuals.
+                        </p>
+                        <!-- <span class="arrow">→</span> -->
+                    </div>
+
+                    <!-- CARD 2 -->
+                    <div class="card teal">
+                        <div class="icon"><img src="photos/a-2.png" alt="Strong Academic Strength"></div>
+                        <h3>Child-Centered Learning</h3>
+                        <p>
+                            Our approach respects each child's pace with materials that make
+                            learning meaningful and joyful.
+                        </p>
+                        <!-- <span class="arrow">→</span> -->
+                    </div>
+
+                    <!-- CARD 3 -->
+                    <div class="card orange">
+                        <div class="icon"><img src="photos/a-3.png" alt="We're a Community"></div>
+                        <h3>Nurturing Environment</h3>
+                        <p>
+                            A safe, supportive space where children feel valued and encouraged
+                            to explore their full potential.
+                        </p>
+                        <!-- <span class="arrow">→</span> -->
+                    </div>
+
+                </div>
+
+                <!-- BOTTOM STRIP -->
+                <div class="why-strip">
+
+                    <div class="strip-item">
+                        <span><svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0"
+                                viewBox="0 0 496 496" style="enable-background:new 0 0 512 512" xml:space="preserve"
+                                class="">
+                                <g transform="matrix(1,0,0,1,0,60)">
+                                    <path
+                                        d="M98.113 168.125c-31.73 0-57.543-25.578-57.543-57.008 0-31.433 25.813-57.012 57.543-57.012 31.727 0 57.535 25.575 57.535 57.012 0 31.434-25.808 57.008-57.535 57.008zm0-98.02c-22.91 0-41.543 18.399-41.543 41.012 0 22.61 18.633 41.008 41.543 41.008 22.903 0 41.535-18.398 41.535-41.008 0-22.613-18.632-41.012-41.535-41.012zM121.262 325.969H20.91C9.38 325.969 0 316.649 0 305.19v-26.168c0-53.57 44.012-97.156 98.113-97.156 21.278 0 41.532 6.64 58.555 19.2a8.004 8.004 0 0 1 1.687 11.19 8.006 8.006 0 0 1-11.187 1.688c-14.254-10.515-31.215-16.078-49.055-16.078-45.277 0-82.113 36.41-82.113 81.156v26.168c0 2.633 2.203 4.778 4.91 4.778h100.356c4.414 0 8 3.582 8 8 0 4.414-3.586 8-8.004 8zM475.09 319.914H374.738c-4.414 0-8-3.582-8-8 0-4.414 3.586-8 8-8h100.356c2.707 0 4.91-2.14 4.91-4.773v-26.168c0-44.754-36.836-81.157-82.113-81.157-18.91 0-37.371 6.512-51.985 18.34-3.43 2.778-8.465 2.25-11.25-1.183-2.777-3.434-2.254-8.473 1.188-11.254 17.449-14.121 39.484-21.903 62.047-21.903 54.097 0 98.109 43.582 98.109 97.157v26.168c0 11.453-9.379 20.773-20.91 20.773zM397.887 164.172c-31.727 0-57.535-25.574-57.535-57.008s25.808-57.012 57.535-57.012c31.73 0 57.543 25.575 57.543 57.012s-25.817 57.008-57.543 57.008zm0-98.02c-22.903 0-41.535 18.399-41.535 41.012s18.632 41.008 41.535 41.008c22.91 0 41.543-18.395 41.543-41.008 0-22.613-18.637-41.012-41.543-41.012zm0 0"
+                                        fill="#000000" opacity="1" data-original="#000000" class=""></path>
+                                    <path
+                                        d="M356.578 352H139.422c-14.426 0-26.16-11.648-26.16-25.969v-36.804c0-73.555 60.437-133.395 134.738-133.395s134.738 59.84 134.738 133.395v36.804c0 14.32-11.734 25.969-26.16 25.969zM248 171.836c-65.473 0-118.738 52.664-118.738 117.394v36.805c0 5.496 4.558 9.969 10.16 9.969h217.152c5.602 0 10.16-4.473 10.16-9.969V289.23c.004-64.73-53.261-117.394-118.734-117.394zM245.219 146.484c-40.766 0-73.938-32.855-73.938-73.246C171.281 32.852 204.45 0 245.22 0c40.773 0 73.941 32.855 73.941 73.242 0 40.39-33.172 73.242-73.941 73.242zm0-130.484c-31.946 0-57.938 25.68-57.938 57.242 0 31.567 25.992 57.246 57.938 57.246 31.949 0 57.941-25.68 57.941-57.246C303.16 41.68 277.168 16 245.22 16zm0 0"
+                                        fill="#000000" opacity="1" data-original="#000000" class=""></path>
+                                </g>
+                            </svg></span>
+                        <h4>18 Months-6 Years</h4>
+                        <p>Age range</p>
+                    </div>
+
+                    <div class="strip-item">
+                        <span><svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0"
+                                viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve"
+                                class="">
+                                <g>
+                                    <path
+                                        d="M497.563 254.898c11.836-23.416 6.935-51.211-12.196-69.167L457.6 159.669c-6.405-6.01-10.32-12.793-12.324-21.347l-8.687-37.076C430.606 75.7 408.984 57.557 382.786 56.1l-38.021-2.115c-8.771-.488-16.131-3.167-23.163-8.43l-30.486-22.82c-21.002-15.722-49.229-15.724-70.234 0l-30.486 22.819c-7.032 5.264-14.393 7.943-23.163 8.431L129.212 56.1c-26.197 1.457-47.819 19.6-53.803 45.146l-8.687 37.077c-2.003 8.553-5.919 15.336-12.323 21.347l-27.768 26.061C7.5 203.686 2.599 231.482 14.435 254.898l17.18 33.985c3.963 7.84 5.323 15.553 4.28 24.275l-4.52 37.812c-3.113 26.051 10.999 50.494 35.117 60.824l35.006 14.992c8.074 3.458 14.074 8.492 18.883 15.843l20.843 31.871c14.359 21.958 40.881 31.612 65.998 24.021l36.452-11.016c8.409-2.542 16.241-2.541 24.648 0l36.452 11.016a59.365 59.365 0 0 0 17.2 2.561c19.353-.001 37.706-9.62 48.798-26.582l20.844-31.871c4.808-7.351 10.808-12.386 18.882-15.844l35.006-14.992c24.118-10.33 38.231-34.773 35.117-60.824l-4.52-37.813c-1.043-8.721.317-16.435 4.28-24.274zm-31.459 26.768c-5.377 10.637-7.303 21.559-5.888 33.391l4.52 37.812c2.299 19.235-7.722 36.591-25.529 44.218l-35.006 14.992c-10.955 4.692-19.451 11.821-25.974 21.794l-20.844 31.871c-10.602 16.212-29.437 23.066-47.979 17.462l-36.452-11.016c-5.704-1.724-11.327-2.586-16.953-2.586-5.624 0-11.25.862-16.953 2.586l-36.452 11.016c-18.542 5.603-37.376-1.25-47.979-17.462l-20.843-31.871c-6.524-9.974-15.021-17.103-25.975-21.794l-35.006-14.992c-17.808-7.626-27.828-24.983-25.529-44.218l4.52-37.812c1.415-11.833-.511-22.755-5.888-33.392l-17.18-33.985c-8.738-17.289-5.259-37.025 8.866-50.283l27.768-26.061c8.689-8.155 14.234-17.76 16.952-29.364l8.687-37.077c4.418-18.861 19.771-31.744 39.113-32.819l38.021-2.115c11.899-.662 22.321-4.456 31.862-11.597l30.486-22.82c15.508-11.608 35.551-11.609 51.059 0l30.486 22.82c9.541 7.141 19.964 10.935 31.862 11.597l38.021 2.115c19.343 1.076 34.695 13.958 39.113 32.82l8.687 37.076c2.718 11.605 8.264 21.21 16.953 29.364l27.767 26.061c14.125 13.257 17.604 32.994 8.866 50.283zM256 92.454C165.82 92.454 92.454 165.82 92.454 256S165.82 419.546 256 419.546 419.546 346.18 419.546 256 346.18 92.454 256 92.454zm0 311.092c-81.357 0-147.546-66.189-147.546-147.546S174.643 108.454 256 108.454 403.546 174.643 403.546 256 337.357 403.546 256 403.546zm68.093-221.676h-.119c-7.994.031-15.491 3.173-21.108 8.848l-66.341 67.001-27.398-27.399c-5.658-5.658-13.182-8.774-21.186-8.774-8.005 0-15.528 3.116-21.187 8.775-11.681 11.682-11.681 30.69 0 42.371l48.661 48.661c5.841 5.84 13.513 8.761 21.186 8.761s15.346-2.92 21.187-8.761c18.449-18.45 37.064-37.332 55.067-55.591a18653.75 18653.75 0 0 1 32.48-32.891c11.602-11.708 11.541-30.68-.136-42.292-5.649-5.62-13.14-8.709-21.106-8.709zm9.877 39.738a19406.177 19406.177 0 0 0-32.51 32.92c-17.982 18.24-36.577 37.101-54.986 55.51-5.444 5.444-14.303 5.444-19.745 0l-48.66-48.661c-5.443-5.443-5.443-14.301 0-19.745a13.87 13.87 0 0 1 9.872-4.088c3.729 0 7.236 1.452 9.872 4.088l33.083 33.084a8.002 8.002 0 0 0 5.657 2.343h.02a8 8 0 0 0 5.665-2.371l71.998-72.715a13.768 13.768 0 0 1 9.8-4.105h.056c3.709 0 7.196 1.438 9.826 4.053 5.431 5.404 5.455 14.234.052 19.687z"
+                                        fill="#000000" opacity="1" data-original="#000000" class=""></path>
+                                </g>
+                            </svg></span>
+                        <h4>Certified Educators</h4>
+                        <p>Trained Montessori guides</p>
+                    </div>
+
+                    <div class="strip-item">
+                        <span>
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0"
+                                viewBox="0 0 64 64" style="enable-background:new 0 0 512 512" xml:space="preserve"
+                                class="">
+                                <g transform="matrix(0.98,0,0,0.98,0.641000022888182,0.6400000000000006)">
+                                    <path
+                                        d="M52.3 11.5c-.5 0-1-.4-1-1V4.6c0-.6-.5-1-1-1h-1.4c-.6 0-1 .5-1 1V5c0 .5-.4 1-1 1s-1-.4-1-1v-.4c0-1.6 1.3-3 3-3h1.4c1.6 0 3 1.3 3 3v5.9c0 .5-.5 1-1 1zM53.3 35.2c-.5 0-1-.4-1-1V21.8L36.7 6.2 21.2 21.8v6.7c0 .5-.4 1-1 1s-1-.4-1-1v-7.1c0-.3.1-.5.3-.7l16-16.1c.7-.7 1.7-.7 2.4 0L54 20.7c.2.2.3.4.3.7v12.8c0 .5-.5 1-1 1z"
+                                        fill="#000000" opacity="1" data-original="#000000" class=""></path>
+                                    <path
+                                        d="M55 23.2c-.8 0-1.6-.3-2.1-.9L36.7 6.2 20.6 22.3c-1.1 1.1-3.1 1.1-4.3 0-1.2-1.2-1.2-3.1 0-4.3L32.7 1.7C33.8.6 35.3 0 36.8 0s3 .6 4 1.7L57.1 18c1.2 1.2 1.2 3.1 0 4.3-.6.6-1.3.9-2.1.9zM36.7 4.1c.4 0 .9.2 1.2.5l16.3 16.3c.4.4 1.1.4 1.5 0s.4-1.1 0-1.5L39.4 3.1c-1.4-1.5-3.9-1.5-5.3 0L17.7 19.4c-.4.4-.4 1.1 0 1.5s1.1.4 1.5 0L35.5 4.6c.3-.3.8-.5 1.2-.5zM42.9 33.6c-.5 0-1-.4-1-1v-5.2c0-.9-.8-1.6-1.6-1.6H33c-.9 0-1.6.8-1.6 1.6v2.2c0 .5-.4 1-1 1s-1-.4-1-1v-2.2c0-1.9 1.6-3.6 3.6-3.6h7.3c1.9 0 3.6 1.6 3.6 3.6v5.2c0 .5-.5 1-1 1zM43.1 43c-.2 0-.4-.1-.6-.2-.4-.3-.5-1-.1-1.4s.6-1 .6-1.7v-.1c0-1.5-1.2-2.6-2.6-2.6h-5.8c-1.7 0-3.2-.6-4.6-1.9-2.9-2.7-7.2-3.1-10.4-1-2.3 1.4-4.1 2.9-5.4 4.6-.3.4-1 .5-1.4.2s-.5-1-.2-1.4c1.4-1.8 3.4-3.5 5.9-5 4-2.6 9.2-2.1 12.8 1.2 1 .9 2.1 1.3 3.2 1.3h5.8c2.5 0 4.6 2.1 4.6 4.6v.1c0 1.1-.4 2.1-1 2.9-.2.3-.5.4-.8.4z"
+                                        fill="#000000" opacity="1" data-original="#000000" class=""></path>
+                                    <path
+                                        d="M24.3 53.5c-.4 0-.8-.3-.9-.7-.2-.5.1-1.1.6-1.2s.9-.1 1.3-.1l14-.4c3.2-.1 6.2-.9 9.1-2.3 4.8-2.4 9.1-5.2 12.8-8.3.3-.2.4-.5.4-.8s-.1-.5-.3-.7c-1.5-1.3-3.6-1.5-5.4-.5-3 1.9-6.9 3.4-12.1 4.6-.9 1-2.1 1.5-3.4 1.5h-7c-.5 0-1-.4-1-1s.4-1 1-1h7c.9 0 1.6-.3 2.1-1 .1-.2.3-.3.5-.4 5.2-1.2 9-2.7 11.9-4.5 2.5-1.4 5.6-1.1 7.7.7.7.5 1 1.3 1 2.2s-.4 1.8-1.2 2.4c-3.8 3.1-8.3 6-13.2 8.5-3.1 1.6-6.5 2.4-9.9 2.5l-14 .4h-.7c-.1.1-.2.1-.3.1zM15.4 64c-.3 0-.6-.1-.8-.4L.7 45.1c-.2-.2-.2-.5-.2-.7 0-.3.2-.5.4-.6l4.7-3.5c.8-.6 1.8-.9 2.8-.9 1.5 0 2.8.7 3.7 1.8l9.5 12.7c.7.9 1.1 2.1.9 3.3s-.8 2.4-1.8 3.2L16 63.8c-.2.1-.4.2-.6.2zM2.9 44.7l12.7 16.9 3.9-2.9c.6-.4 1-1.1 1.1-1.8s-.1-1.3-.5-1.9l-9.5-12.7c-.8-1.1-2.6-1.4-3.7-.5z"
+                                        fill="#000000" opacity="1" data-original="#000000" class=""></path>
+                                </g>
+                            </svg></span>
+                        <h4>Prepared Classrooms</h4>
+                        <p>Designed for exploration</p>
+                    </div>
+
+                    <div class="strip-item">
+                        <span><svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" x="0" y="0"
+                                viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve"
+                                class="">
+                                <g>
+                                    <path
+                                        d="M359.511 37.984c-38.907 0-75.282 14.653-103.511 41.478-28.229-26.825-64.605-41.478-103.511-41.478C68.406 37.984 0 108.033 0 194.135c0 49.918 42.543 112.126 126.449 184.895 61.346 53.204 123.555 93.023 124.176 93.419a9.996 9.996 0 0 0 10.751-.001c.621-.396 62.83-40.215 124.176-93.419C469.457 306.26 512 244.052 512 194.135c0-86.102-68.406-156.151-152.489-156.151zm13.109 325.787c-49.885 43.284-100.379 77.567-116.62 88.301-16.216-10.715-66.578-44.903-116.448-88.153C61.34 296.089 20 237.378 20 194.135 20 119.06 79.435 57.984 152.489 57.984c36.726 0 70.877 15.094 96.161 42.501a10 10 0 0 0 14.7 0c25.285-27.406 59.435-42.5 96.161-42.5C432.565 57.984 492 119.06 492 194.135c0 43.209-41.281 101.868-119.38 169.636z"
+                                        fill="#000000" opacity="1" data-original="#000000" class=""></path>
+                                    <path
+                                        d="m347.379 93.307-.376.065c-5.438.966-9.063 6.157-8.097 11.595.861 4.846 5.078 8.252 9.834 8.252.581 0 1.17-.051 1.76-.156l.199-.034c5.446-.917 9.118-6.075 8.201-11.521-.917-5.448-6.08-9.115-11.521-8.201zM439.056 131.382c-12.278-16.867-29.718-29.43-49.106-35.375-5.281-1.621-10.873 1.349-12.492 6.629-1.619 5.28 1.349 10.873 6.629 12.492 31.959 9.8 54.279 41.078 54.279 76.063 0 5.523 4.477 10 10 10s10-4.477 9.999-10.001c0-21.774-6.677-42.455-19.309-59.808z"
+                                        fill="#000000" opacity="1" data-original="#000000" class=""></path>
+                                </g>
+                            </svg></span>
+                        <h4>Holistic Growth</h4>
+                        <p>Academic, social & emotional</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <section class="programs" id="programs">
+
+            <div class="program-header">
+                <span class="tag-line">Our Programs</span>
+                <h2>Learning journeys for every stage.</h2>
+                <p>
+                    Thoughtfully prepared environments designed to meet children
+                    where they are and guide where they can grow.
+                </p>
+            </div>
+
+            <div class="program-grid">
+
+                <!-- CARD -->
+                <div class="program-card">
+                    <img src="photos/toddler1W.webp" alt="Toddler Program" />
+                    <div class="program-content">
+                        <h3>Toddler</h3>
+                        <span class="age red">18 Months – 2 Years</span>
+                        <p>Early independence through movement, language, and sensory discovery.</p>
+                        <a href="#">Explore →</a>
+                    </div>
+                </div>
+
+                <div class="program-card">
+                    <img src="photos/kindergarten1.jpg" alt="Primary Program" />
+                    <div class="program-content">
+                        <h3>Primary</h3>
+                        <span class="age teal">3 – 6 Years</span>
+                        <p>Hands-on foundations in literacy, numeracy, and confidence.</p>
+                        <a href="#">Explore →</a>
+                    </div>
+                </div>
+
+                <div class="program-card">
+                    <img src="photos/daycare.jpg" alt="Before & After Care" />
+                    <div class="program-content">
+                        <h3>Before & After Care</h3>
+                        <span class="age orange">18 Months – 8 Years</span>
+                        <p>A calm, caring extension of the school day.</p>
+                        <a href="#">Explore →</a>
+                    </div>
+                </div>
+
+                <div class="program-card">
+                    <img src="photos/summercamp2W.webp" alt="Summer Camp" />
+                    <div class="program-content">
+                        <h3>Summer Camps</h3>
+                        <span class="age yellow">3 – 12 Years</span>
+                        <p>Creative, active, seasonal experiences children love.</p>
+                        <a href="#">Explore →</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="quote">
+            <p>
+                “How much fuller and richer life would be if we saw the child in all his greatness.”
+            </p>
+            <span>— Maria Montessori</span>
+
+        </section>
+        <section class="admission-section" id="admission-form">
+
+            <div class="admission-card">
+
+                <div class="form-header">
+                    <span class="tag-line">Admissions</span>
+                    <h2>Begin Their Journey</h2>
+                    <p>
+                        Tell us a little about your child and we'll guide you through the next steps.
+                    </p>
+                </div>
+
+                <form class="admission-form" action="applications.php" method="post">
+
+                    <!-- ROW 1 -->
+                    <div class="grid-2">
+
+                        <div class="field">
+                            <label for="fname">First Name *</label>
+                            <input type="text" id="fname" name="fname" placeholder="Enter first name" required>
+                        </div>
+
+                        <div class="field">
+                            <label for="lname">Last Name *</label>
+                            <input type="text" id="lname" name="lname" placeholder="Enter last name" required>
+                        </div>
+
+                    </div>
+
+                    <!-- ROW 2 -->
+                    <div class="grid-2">
+
+                        <div class="field">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                        </div>
+
+                        <div class="field">
+                            <label for="pnum">Phone Number *</label>
+                            <input type="tel" id="pnum" name="pnum" placeholder="+91 98765 43210" required>
+                        </div>
+
+                    </div>
+
+                    <!-- ROW 3 -->
+                    <div class="grid-1">
+
+                        <div class="field">
+                            <label for="dob">Child's Date of Birth</label>
+                            <input type="date" id="dob" name="dob">
+                        </div>
+
+                    </div>
+
+                    <!-- PROGRAMS -->
+                    <label class="program-label">Programs of Interest</label>
+
+                    <div class="chips">
+
+                        <label for="toddler">
+                            <input type="checkbox" name="program[]" id="toddler" value="toddler">
+                            <span>Toddler</span>
+                        </label>
+
+                        <label for="primary">
+                            <input type="checkbox" name="program[]" id="primary" value="primary">
+                            <span>Primary</span>
+                        </label>
+
+                        <label for="daycare">
+                            <input type="checkbox" name="program[]" id="daycare" value="daycare">
+                            <span>Day Care</span>
+                        </label>
+
+                        <label for="summercamp">
+                            <input type="checkbox" name="program[]" id="summercamp" value="summercamp">
+                            <span>Summer Camp</span>
+                        </label>
+
+                    </div>
+
+                    <!-- SUBMIT -->
+                    <button class="btn" type="submit" id="submitbtn">
+                        Schedule a Visit
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+        <footer class="site-footer" id="contact">
+
+            <div class="container footer-grid">
+
+                <!-- BRAND -->
+                <div class="footer-brand">
+                    <img src="photos/logo.png" alt="Elysian Montessori School Logo">
+                    <h3><span class="word-1">Elysian</span>
+                        <span class="word-2">Montessori</span>
+                        <span class="word-3">School</span>
+                    </h3>
+                    <p>
+                        Nurturing curiosity, independence, and joyful learning in a warm Montessori environment.
+                    </p>
+
+                    <div class="socials">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <!-- QUICK LINKS -->
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#programs">Programs</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#admissions">Admissions</a>
+                </div>
+
+                <!-- CONTACT -->
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>Al Kareem Complex,<br>
+                        Al-Hasnath Colony,<br>
+                        Road No.2, Tolichowki,<br>
+                        Hyderabad - 500008</p>
+
+                    <a href="tel:+917416488977">+91 74164 88977</a>
+                    <a href="mailto:elysianmontessori@gmail.com">
+                        elysianmontessori@gmail.com
+                    </a>
+                </div>
+
+                <!-- MAP -->
+                <div class="footer-map">
+                    <h4>Visit Us</h4>
+
+                    <iframe src="https://www.google.com/maps?q=Elysian+Montessori+School+Hyderabad&output=embed"
+                        loading="lazy" allowfullscreen="">
+                    </iframe>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                © 2026 Elysian Montessori School • All Rights Reserved
+            </div>
+
+        </footer>
+        <!-- <footer id="Contact">
+      <div class="row">
+        <div class="col">
+          <img src="photos/logo.png" class="logoimg" alt="Elysian Montessori School Logo" />
+          <h1>Elysian Montessori School</h1>
+          <div class="icons">
+            <h3>Social Media:</h3>
+            <a href="https://www.facebook.com/profile.php?id=100088396164988" title="Facebook Page" target="_blank"
+              rel="noopener noreferrer"><i class="fa-brands fa-square-facebook fa-xl"></i></a>
+            <a href="https://www.instagram.com/elysianmontessori/" title="Instagram Page" target="_blank"
+              rel="noopener noreferrer"><i class="fa-brands fa-instagram fa-xl"></i></a>
+          </div>
+        </div>
+        <div class="col">
+          <h3>Address:</h3>
+          <p>Al Kareem Complex,</p>
+          <p>Al-Hasnath Colony,</p>
+          <p>Road No. 2, Tolichowki,</p>
+          <p>Hyderabad - 500008.</p>
+          <h3>Contact:</h3>
+          <p>+917416488977</p>
+          <h3>Email:</h3>
+          <p>elysianmontessori@gmail.com</p>
+        </div>
+
+        <div class="col">
+          <h3>Location:</h3>
+          <section class="location">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3201.5349057181716!2d78.4208260744882!3d17.39795683718205!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb97b378afc425%3A0xe4cae8e9e5b44be7!2sElysian%20Montessori%20School!5e0!3m2!1sen!2sin!4v1680012100527!5m2!1sen!2sin"
+              width="200" height="200" style="border: 0" allowfullscreen="" loading="lazy" title="Location Map"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </section>
+          <p>© 2024 Elysian Montessori School</p>
+        </div>
+      </div>
+    </footer> -->
+    </main>
+    <div class="overlay"></div>
+</body>
+
+</html>

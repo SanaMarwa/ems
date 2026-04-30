@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Elysian Montessori School Website: Offering high-quality Montessori learning environment for children ages 1½ through 6 years." />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png" />
+    <link rel="manifest" href="favicon_io/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/dc4cb3ac1f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="script.js" defer></script>
+    <title>Elysian Montessori School</title>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container nav-wrap">
+
+            <!-- Logo -->
+            <a href="#home" class="brand">
+                <img src="photos/logo.png" alt="Elysian Montessori School Logo">
+
+                <span class="brand-text">
+                    <span class="word-1">Elysian</span>
+                    <span class="word-2">Montessori</span>
+                    <span class="word-3">School</span>
+                </span>
+            </a>
+
+            <!-- Desktop Nav -->
+            <nav class="nav-links" id="navMenu">
+                <a href="index.html#hero">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="programs.html" class="active">Programs</a>
+                <a href="#contact">Contact</a>
+                <a href="#admission-form" class="mobile-btn">Admission</a>
+            </nav>
+
+            <!-- Desktop CTA -->
+            <a href="#admission-form" class="nav-btn">Admission</a>
+
+            <!-- Hamburger -->
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+    </header>
+
+    <main class="main">
+
+        <!-- HERO -->
+        <section class="program-hero">
+            <div class="container">
+                <p class="eyebrow">Learning Through Discovery</p>
+                <h1>Programs Designed For Every Stage</h1>
+                <p>
+                    A nurturing Montessori environment where children grow in confidence,
+                    independence, creativity, and joy.
+                </p>
+            </div>
+        </section>
+
+        <!-- PROGRAM CARDS -->
+        <section class="program-listing">
+            <div class="container">
+
+                <div class="program-grid">
+
+                    <div class="program-card yellow">
+                        <img src="photos/toddler1W.webp" alt="Toddler Program">
+                        <div class="program-content">
+                            <span class="age yellow">18 Months - 2 Years</span>
+                            <h3>Toddler</h3>
+                            <p>Gentle beginnings with movement, language, confidence and independence.</p>
+                            <a href="#toddler-info">Learn More →</a>
+                        </div>
+                    </div>
+
+                    <div class="program-card teal">
+                        <img src="photos/kindergarten1.jpg" alt="Primary Program">
+                        <div class="program-content">
+                            <span class="age teal">3 - 6 Years</span>
+                            <h3>Primary</h3>
+                            <p>Hands-on Montessori learning in math, language, culture and life skills.</p>
+                            <a href="#primary-info">Learn More →</a>
+                        </div>
+                    </div>
+
+                    <div class="program-card red">
+                        <img src="photos/daycare.jpg" alt="Daycare Program">
+                        <div class="program-content">
+                            <span class="age red">1.5 - 8 Years</span>
+                            <h3>Before & After Care</h3>
+                            <p>Safe, caring and structured childcare for working families.</p>
+                            <a href="#daycare-info">Learn More →</a>
+                        </div>
+                    </div>
+
+                    <div class="program-card orange">
+                        <img src="photos/summercamp2W.webp" alt="Summer Camp">
+                        <div class="program-content">
+                            <span class="age orange">3 - 12 Years</span>
+                            <h3>Summer Camp</h3>
+                            <p>Creative fun, learning and friendships all summer long.</p>
+                            <a href="#summercamp-info">Learn More →</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="program-info">
+            <div id="toddler-info">
+                <h2 style="color: var(--color1)">Toddler</h2>
+                <div class="program-img">
+                    <img src="photos/toddler3W.webp" alt="Toddler playing with utensils" />
+                    <img src="photos/toddlerinfo2W.webp" alt="Toddler learning to button a shirt" />
+                </div>
+                <p>
+                    Our Toddler classroom is a nurturing environment where younger
+                    children have the freedom to safely explore and learn through
+                    discovery.
+                </p>
+                <br />
+                <p>
+                    The space is organized, clean, and uncluttered with child-sized
+                    furniture.
+                </p>
+                <p>
+                    The atmosphere is positive, supportive, and non-competitive, which
+                    gives them an obvious joy in 'work' which builds self-confidence,
+                    concentration, and critical thinking skills.
+                </p>
+                <br />
+                <p>
+                    The environment is language-rich, with adults using proper
+                    nomenclature rather than baby talk so that the children are exposed
+                    to and develop a broad vocabulary.
+                </p>
+                <br />
+                <p>
+                    Based on daily observations, teachers introduce new materials and
+                    activities that develop curiosity and stimulate learning.
+                </p>
+                <br />
+                <p>These Learning activities include:</p>
+                <br />
+                <ul>
+                    <li>
+                        <strong>Self-care activities:</strong> Such as dressing up, using
+                        the toilet, washing one's hands, and making snacks all according
+                        to the child's personal capacity.
+                    </li>
+                    <li>
+                        <strong>Large motor skills:</strong> Like walking, balancing,
+                        running, climbing steps, and jumping.
+                    </li>
+                    <li>
+                        <strong>Fine motor skills:</strong> Like grasping, reaching, using
+                        utensils, doing artwork, picking up objects, transferring objects,
+                        and more.
+                    </li>
+                    <li>
+                        <strong>Caring for the environment:</strong> Food preparation,
+                        cleaning up after work, taking care of plants and animals.
+                    </li>
+                    <li>
+                        <strong>Social skills:</strong> Interacting with peers, developing
+                        social behavior and language with other children, adults and
+                        teachers throughout the day.
+                    </li>
+                    <li>
+                        <strong>Language skills:</strong> Such as naming objects,
+                        discussing pictures, having conversations, singing, and more.
+                    </li>
+                </ul>
+
+                <div class="quote">
+                    <p>"Education must begin at birth."</p>
+
+                    <h3>~ Maria Montessori</h3>
+                </div>
+            </div>
+            <div id="primary-info">
+                <h2 style="color: var(--color2)">Primary Environment</h2>
+                <div class="program-img">
+                    <img src="photos/toddlerinfoW.webp" alt="Toddler learning to count" />
+                    <img src="photos/primary-infoW.webp" alt="Kid learning to write numbers" />
+                </div>
+                <p>
+                    The Montessori primary program offers a unique, mixed-age classroom
+                    environment, for children approximately 3 to 6 years old.
+                </p>
+                <br />
+                <p>
+                    Our environment is a carefully prepared, purposeful, and aesthetic
+                    learning space for self-directed activities, allowing for an inner
+                    desire to learn. A child, three years of age, seeks to become
+                    independent. Often one hears the young child say, “Let me do it
+                    myself!” Children also want to imitate adults around them. They need
+                    to practice self-help skills that are necessary to develop into
+                    independent individuals.
+                </p>
+                <br />
+                <p>
+                    Teachers guide children by offering new challenges within work from
+                    time to time, ensuring the child's interest to learn is kept alive.
+                    Each area of the Montessori classroom has specific goals in
+                    supporting the child to become an integrated individual.
+                </p>
+                <br />
+                <ul>
+                    <li>
+                        <p>
+                            <strong>Practical Life activities</strong> fall into four main
+                            categories: care of self, care of the environment, control of
+                            movement, and grace and courtesy.
+                        </p>
+                        <br />
+                        <p>
+                            These include activities such as sweeping, pouring, washing
+                            dishes, setting the table, and sewing builds self-confidence in
+                            the child's work and develop their concentration, order,
+                            coordination, and independence. These are activities that the
+                            child usually sees happening around him in his day to day life.
+                            Grace and courtesy lessons are designed to help the children
+                            feel comfortable with others and refine their social graces.
+                        </p>
+                    </li>
+
+                    <li>
+                        <strong>The Sensorial area</strong> is unique to the Montessori
+                        environment. Each child learns from its sensory abilities through
+                        touch, smell, taste, texture, and sound. Sensorial materials have
+                        what is called "control of error", meaning that the child not only
+                        works with the material but has a way to check their work rather
+                        than relying on the teacher to do it for him. This is done to help
+                        promote confidence, independence, accountability and
+                        problem-solving on the part of the child.
+                    </li>
+
+                    <li>
+                        <strong>The Language area</strong> supports learning the shapes
+                        and sounds of letters, matching words and pictures, and composing
+                        words with the Moveable alphabet. They explore phonetic reading,
+                        phonograms, grammar material, and word study. Children have access
+                        to books at all times in the environment. They also have a space
+                        called the reading corner, to sit by themselves or with others and
+                        read. Children also work at refining their pencil control to make
+                        writing effortless and joyful. This is aided by the metal insets.
+                    </li>
+
+                    <li>
+                        In<strong> the Math area</strong> , children are formally
+                        introduced to mathematical concepts in order of concrete to
+                        abstract; starting with tactile impressions of quantities and
+                        progressing to memorization. The child develops concepts, such as
+                        place value, numeration, fractions, and simple operations of
+                        addition, multiplication, subtraction, and division.
+                    </li>
+
+                    <li>
+                        <strong>The Culture area</strong> is offered in ways that the
+                        child truly experiences it. He is acquainted with various groups,
+                        such as botany, zoology, geography, history, music, art, and
+                        general science. In geography, children are exposed to maps,
+                        flags, landforms, animals, language, etc. from all 7 continents
+                        which supports their understanding of the world around them.
+                    </li>
+
+                    <li>
+                        In <strong>Science area</strong>, children learn about botany like
+                        plants, trees, leaves, flowers, etc, and different classifications
+                        of animals like mammals, amphibians, reptiles, birds, insects,
+                        dinosaurs, etc. Children have interactive experiences as they
+                        perform hands-on science experiments.
+                    </li>
+
+                    <li>
+                        <strong>Art</strong> exposes children to learning skills such as
+                        pasting, drawing, cutting, painting, and collage making. Every
+                        month we highlight a different artist and talk about their art in
+                        terms of their colour choices, the subjects they chose. This is
+                        offered to the child in the form of stories and life experiences
+                        so he can live it to understand it.
+                    </li>
+                </ul>
+                <div class="vidlink">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/4rQEHAMofEc"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div id="daycare-info">
+                <h2 style="color: var(--color3)">Day-care</h2>
+                <div class="program-img">
+                    <img src="photos/daycare-infoW.webp" alt="Toddler sleeping in a Crib in Daycare" />
+                    <!-- <img src="photos/primary-info.jpg" alt="" /> -->
+                </div>
+
+                <p>
+                    Managing your home and work is a daunting task. Daycare can give you
+                    that peace of mind you have been longing for. We help parents focus
+                    on their daily routine worry-free, as they can rest assured that
+                    their children are in safe hands by providing a safe, hygienic, and
+                    enriching environment for children ages 1.5 to 8 years old. We offer
+                    an extensive program after school and planned activities to keep
+                    them busy with age- appropriate grouping.
+                </p>
+                <p>Timings: 9:00 am to 3:30 pm.</p>
+            </div>
+
+            <div id="summercamp-info">
+                <h2 style="color: var(--color4)">Summer camp</h2>
+                <div class="program-img">
+                    <img src="photos/isumercamp.jpg" alt="Children playing and doing fun activities" />
+                    <img src="photos/summercampinfoW.webp" alt="Child learning to roll dough" />
+                </div>
+                <p>
+                    Summer learning need not be boring!!! As we provide fun and engaging
+                    activities for your child. While they are having fun and exploring
+                    their own interests, they are also increasing their own capacities
+                    for learning, teamwork, problem-solving, knowledge, and
+                    self-awareness. Our Summer camp lasts for four weeks and is eligible
+                    for 3 years to 12 years old.
+                </p>
+                <br />
+                <ul>
+                    <li>Phonics</li>
+                    <li>Art and craft</li>
+                    <li>Deeniyat</li>
+                    <li>Fireless cooking</li>
+                    <li>Baking</li>
+                    <li>Storytelling</li>
+                    <li>Water pool</li>
+                    <li>Fun Games</li>
+                </ul>
+            </div>
+        </section>
+        <section class="admission-section" id="admission-form">
+
+            <div class="admission-card">
+
+                <div class="form-header">
+                    <span class="tag-line">Admissions</span>
+                    <h2>Begin Their Journey</h2>
+                    <p>
+                        Tell us a little about your child and we'll guide you through the next steps.
+                    </p>
+                </div>
+
+                <form class="admission-form" action="applications.php" method="post">
+
+                    <!-- ROW 1 -->
+                    <div class="grid-2">
+
+                        <div class="field">
+                            <label for="fname">First Name *</label>
+                            <input type="text" id="fname" name="fname" placeholder="Enter first name" required>
+                        </div>
+
+                        <div class="field">
+                            <label for="lname">Last Name *</label>
+                            <input type="text" id="lname" name="lname" placeholder="Enter last name" required>
+                        </div>
+
+                    </div>
+
+                    <!-- ROW 2 -->
+                    <div class="grid-2">
+
+                        <div class="field">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                        </div>
+
+                        <div class="field">
+                            <label for="pnum">Phone Number *</label>
+                            <input type="tel" id="pnum" name="pnum" placeholder="+91 98765 43210" required>
+                        </div>
+
+                    </div>
+
+                    <!-- ROW 3 -->
+                    <div class="grid-1">
+
+                        <div class="field">
+                            <label for="dob">Child's Date of Birth</label>
+                            <input type="date" id="dob" name="dob">
+                        </div>
+
+                    </div>
+
+                    <!-- PROGRAMS -->
+                    <label class="program-label">Programs of Interest</label>
+
+                    <div class="chips">
+
+                        <label for="toddler">
+                            <input type="checkbox" name="program[]" id="toddler" value="toddler">
+                            <span>Toddler</span>
+                        </label>
+
+                        <label for="primary">
+                            <input type="checkbox" name="program[]" id="primary" value="primary">
+                            <span>Primary</span>
+                        </label>
+
+                        <label for="daycare">
+                            <input type="checkbox" name="program[]" id="daycare" value="daycare">
+                            <span>Day Care</span>
+                        </label>
+
+                        <label for="summercamp">
+                            <input type="checkbox" name="program[]" id="summercamp" value="summercamp">
+                            <span>Summer Camp</span>
+                        </label>
+
+                    </div>
+
+                    <!-- SUBMIT -->
+                    <button class="btn" type="submit" id="submitbtn">
+                        Schedule a Visit
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+        <footer class="site-footer" id="contact">
+
+            <div class="container footer-grid">
+
+                <!-- BRAND -->
+                <div class="footer-brand">
+                    <img src="photos/logo.png" alt="Elysian Montessori School Logo">
+                    <h3><span class="word-1">Elysian</span>
+                        <span class="word-2">Montessori</span>
+                        <span class="word-3">School</span>
+                    </h3>
+                    <p>
+                        Nurturing curiosity, independence, and joyful learning in a warm Montessori environment.
+                    </p>
+
+                    <div class="socials">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <!-- QUICK LINKS -->
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#programs">Programs</a>
+                    <a href="#contact">Contact</a>
+                    <a href="#admissions">Admissions</a>
+                </div>
+
+                <!-- CONTACT -->
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p>Al Kareem Complex,<br>
+                        Al-Hasnath Colony,<br>
+                        Road No.2, Tolichowki,<br>
+                        Hyderabad - 500008</p>
+
+                    <a href="tel:+917416488977">+91 74164 88977</a>
+                    <a href="mailto:elysianmontessori@gmail.com">
+                        elysianmontessori@gmail.com
+                    </a>
+                </div>
+
+                <!-- MAP -->
+                <div class="footer-map">
+                    <h4>Visit Us</h4>
+
+                    <iframe src="https://www.google.com/maps?q=Elysian+Montessori+School+Hyderabad&output=embed"
+                        loading="lazy" allowfullscreen="">
+                    </iframe>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                © 2026 Elysian Montessori School • All Rights Reserved
+            </div>
+
+        </footer>
+    </main>
+    <div class="overlay"></div>
+</body>
+
+</html>
