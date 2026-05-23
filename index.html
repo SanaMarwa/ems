@@ -21,9 +21,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/dc4cb3ac1f.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <script src="script.js" defer></script>
+    <!-- <script src="script.js" defer></script> -->
     <title>Elysian Montessori School</title>
 </head>
 
@@ -68,7 +68,7 @@
         <section class="hero" id="hero">
             <div class="container hero-grid">
                 <div class="hero-copy">
-                    <p class="eyebrow">Ages 18 months to 6 years</p>
+                    <p class="eyebrow">Ages 18 months to 12 years</p>
                     <h1>Where curiosity grows into confidence.</h1>
                     <p>
                         At Elysian Montessori School, children learn through meaningful work,
@@ -80,7 +80,7 @@
                     </div>
                 </div>
                 <div class="hero-media">
-                    <img src="photos/hero3-min.jpg" alt="Children exploring Montessori materials in class" />
+                    <img src="photos/home.jpg" alt="Children exploring Montessori materials in class" />
                 </div>
             </div>
         </section>
@@ -97,7 +97,7 @@
 
                 <!-- IMAGE -->
                 <div class="about-image">
-                    <video src="about.mp4" muted autoplay loop></video>
+                    <video src="about.mp4" autoplay muted loop></video>
                 </div>
 
                 <!-- CONTENT -->
@@ -221,7 +221,7 @@
                                         fill="#000000" opacity="1" data-original="#000000" class=""></path>
                                 </g>
                             </svg></span>
-                        <h4>18 Months-6 Years</h4>
+                        <h4>18 Months-12 Years</h4>
                         <p>Age range</p>
                     </div>
 
@@ -284,6 +284,116 @@
 
             </div>
         </section>
+        <!-- =========================
+ SCHOOL ENVIRONMENT GALLERY
+========================= -->
+
+        <section class="school-gallery-section">
+
+            <div class="gallery-heading">
+
+                <span class="tag-line">Our Environment</span>
+
+                <h2>Inside Our Montessori Spaces</h2>
+
+                <p>
+                    Explore our thoughtfully prepared classrooms, hands-on learning spaces,
+                    outdoor environments, and joyful moments from everyday school life.
+                </p>
+
+            </div>
+
+            <!-- MAIN CAROUSEL -->
+            <div class="gallery-wrapper">
+
+                <button class="gallery-btn prev" aria-label="Previous image">
+                    &#10094;
+                </button>
+
+                <div class="gallery-track-container">
+
+                    <div class="gallery-track">
+
+                        <!-- ITEM -->
+                        <div class="gallery-slide">
+                            <img src="photos/e1.jpg" class="gallery-image" alt="Montessori classroom environment"
+                                loading="lazy">
+                        </div>
+
+                        <div class="gallery-slide portrait">
+                            <img src="photos/e2.jpg" class="gallery-image"
+                                alt="Children learning in Montessori classroom" loading="lazy">
+                        </div>
+
+                        <div class="gallery-slide">
+                            <img src="photos/e3.jpg" class="gallery-image" alt="Hands-on Montessori activities"
+                                loading="lazy">
+                        </div>
+
+                        <div class="gallery-slide landscape">
+                            <img src="photos/e4.jpg" class="gallery-image" alt="Outdoor play area for children"
+                                loading="lazy">
+                        </div>
+
+                        <div class="gallery-slide">
+                            <img src="photos/e5.jpg" class="gallery-image" alt="Children engaged in creative activities"
+                                loading="lazy">
+                        </div>
+
+                        <div class="gallery-slide portrait">
+                            <img src="photos/e6.jpg" class="gallery-image" alt="Montessori materials and learning tools"
+                                loading="lazy">
+                        </div>
+
+                        <div class="gallery-slide portrait">
+                            <img src="photos/e7.jpeg" class="gallery-image"
+                                alt="Montessori materials and learning tools" loading="lazy">
+                        </div>
+                        <div class="gallery-slide portrait">
+                            <img src="photos/environment/ele (8).jpg" class="gallery-image"
+                                alt="Montessori materials and learning tools" loading="lazy">
+                        </div>
+                        <!-- ADD UNLIMITED MORE -->
+                        <!--
+                <div class="gallery-slide">
+                    <img src="photos/yourphoto.webp" alt="Description" loading="lazy">
+                </div>
+                -->
+
+                    </div>
+
+                </div>
+
+                <button class="gallery-btn next" aria-label="Next image">
+                    &#10095;
+                </button>
+
+            </div>
+
+            <!-- DOTS -->
+            <div class="gallery-dots"></div>
+            <!-- =========================
+LIGHTBOX
+========================= -->
+
+            <div class="lightbox" id="lightbox">
+
+                <button class="lightbox-close" aria-label="Close image">
+                    &times;
+                </button>
+
+                <button class="lightbox-nav prev" aria-label="Previous image">
+                    &#10094;
+                </button>
+
+                <img src="" alt="" class="lightbox-image" id="lightboxImage">
+
+                <button class="lightbox-nav next" aria-label="Next image">
+                    &#10095;
+                </button>
+
+            </div>
+        </section>
         <section class="programs" id="programs">
 
             <div class="program-header">
@@ -299,42 +409,42 @@
 
                 <!-- CARD -->
                 <div class="program-card">
-                    <img src="photos/toddler1W.webp" alt="Toddler Program" />
+                    <img src="photos/toddler.jpeg" alt="Toddler Program" />
                     <div class="program-content">
                         <h3>Toddler</h3>
-                        <span class="age red">18 Months – 2 Years</span>
+                        <span class="age red">1.5 - 3 Years</span>
                         <p>Early independence through movement, language, and sensory discovery.</p>
-                        <a href="#">Explore →</a>
+                        <a href="programs.html#toddler-info">Explore →</a>
                     </div>
                 </div>
 
                 <div class="program-card">
-                    <img src="photos/kindergarten1.jpg" alt="Primary Program" />
+                    <img src="photos/0primary.jpg" alt="Primary Program" />
                     <div class="program-content">
                         <h3>Primary</h3>
-                        <span class="age teal">3 – 6 Years</span>
+                        <span class="age teal">3 - 6 Years</span>
                         <p>Hands-on foundations in literacy, numeracy, and confidence.</p>
-                        <a href="#">Explore →</a>
+                        <a href="programs.html#primary-info">Explore →</a>
                     </div>
                 </div>
 
                 <div class="program-card">
-                    <img src="photos/daycare.jpg" alt="Before & After Care" />
+                    <img src="photos/0elementary.jpg" alt="Elementary Program" />
                     <div class="program-content">
-                        <h3>Before & After Care</h3>
-                        <span class="age orange">18 Months – 8 Years</span>
+                        <h3>Elementary</h3>
+                        <span class="age orange">6 - 12 Years</span>
                         <p>A calm, caring extension of the school day.</p>
-                        <a href="#">Explore →</a>
+                        <a href="programs.html#elementary-info">Explore →</a>
                     </div>
                 </div>
 
                 <div class="program-card">
-                    <img src="photos/summercamp2W.webp" alt="Summer Camp" />
+                    <img src="photos/summer.jpg" alt="Summer Camp" />
                     <div class="program-content">
                         <h3>Summer Camps</h3>
-                        <span class="age yellow">3 – 12 Years</span>
+                        <span class="age yellow">3 - 12 Years</span>
                         <p>Creative, active, seasonal experiences children love.</p>
-                        <a href="#">Explore →</a>
+                        <a href="programs.html#summercamp-info">Explore →</a>
                     </div>
                 </div>
 
@@ -387,7 +497,7 @@
 
                         <div class="field">
                             <label for="pnum">Phone Number *</label>
-                            <input type="tel" id="pnum" name="pnum" placeholder="+91 98765 43210" required>
+                            <input type="tel" id="pnum" name="pnum" placeholder="7416488977 " required>
                         </div>
 
                     </div>
@@ -417,9 +527,9 @@
                             <span>Primary</span>
                         </label>
 
-                        <label for="daycare">
-                            <input type="checkbox" name="program[]" id="daycare" value="daycare">
-                            <span>Day Care</span>
+                        <label for="elementary">
+                            <input type="checkbox" name="program[]" id="elementary" value="elementary">
+                            <span>Elementary</span>
                         </label>
 
                         <label for="summercamp">
@@ -431,7 +541,7 @@
 
                     <!-- SUBMIT -->
                     <button class="btn" type="submit" id="submitbtn">
-                        Schedule a Visit
+                        <span class="btn-text">Schedule a Visit</span>
                     </button>
 
                 </form>
@@ -455,19 +565,21 @@
                     </p>
 
                     <div class="socials">
-                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100088396164988&ref=PROFILE_EDIT_xav_ig_profile_page_web#"
+                            aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/elysianmontessori" aria-label="Instagram"><i
+                                class="fa-brands fa-instagram"></i></a>
                     </div>
                 </div>
 
                 <!-- QUICK LINKS -->
                 <div class="footer-links">
                     <h4>Quick Links</h4>
-                    <a href="#home">Home</a>
-                    <a href="#about">About</a>
-                    <a href="#programs">Programs</a>
+                    <a href="index.html">Home</a>
+                    <a href="index.html#about">About</a>
+                    <a href="programs.html">Programs</a>
                     <a href="#contact">Contact</a>
-                    <a href="#admissions">Admissions</a>
+                    <a href="#admission-form">Admissions</a>
                 </div>
 
                 <!-- CONTACT -->
@@ -500,45 +612,10 @@
             </div>
 
         </footer>
-        <!-- <footer id="Contact">
-      <div class="row">
-        <div class="col">
-          <img src="photos/logo.png" class="logoimg" alt="Elysian Montessori School Logo" />
-          <h1>Elysian Montessori School</h1>
-          <div class="icons">
-            <h3>Social Media:</h3>
-            <a href="https://www.facebook.com/profile.php?id=100088396164988" title="Facebook Page" target="_blank"
-              rel="noopener noreferrer"><i class="fa-brands fa-square-facebook fa-xl"></i></a>
-            <a href="https://www.instagram.com/elysianmontessori/" title="Instagram Page" target="_blank"
-              rel="noopener noreferrer"><i class="fa-brands fa-instagram fa-xl"></i></a>
-          </div>
-        </div>
-        <div class="col">
-          <h3>Address:</h3>
-          <p>Al Kareem Complex,</p>
-          <p>Al-Hasnath Colony,</p>
-          <p>Road No. 2, Tolichowki,</p>
-          <p>Hyderabad - 500008.</p>
-          <h3>Contact:</h3>
-          <p>+917416488977</p>
-          <h3>Email:</h3>
-          <p>elysianmontessori@gmail.com</p>
-        </div>
-
-        <div class="col">
-          <h3>Location:</h3>
-          <section class="location">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3201.5349057181716!2d78.4208260744882!3d17.39795683718205!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb97b378afc425%3A0xe4cae8e9e5b44be7!2sElysian%20Montessori%20School!5e0!3m2!1sen!2sin!4v1680012100527!5m2!1sen!2sin"
-              width="200" height="200" style="border: 0" allowfullscreen="" loading="lazy" title="Location Map"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </section>
-          <p>© 2024 Elysian Montessori School</p>
-        </div>
-      </div>
-    </footer> -->
     </main>
     <div class="overlay"></div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
